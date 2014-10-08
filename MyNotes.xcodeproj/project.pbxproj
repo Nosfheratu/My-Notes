@@ -14,6 +14,7 @@
 		AB4DBEB619E478530093AF83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4DBEB519E478530093AF83 /* Images.xcassets */; };
 		AB4DBEB919E478530093AF83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB4DBEB719E478530093AF83 /* LaunchScreen.xib */; };
 		AB4DBEC519E478540093AF83 /* MyNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4DBEC419E478540093AF83 /* MyNotesTests.swift */; };
+		AB4DBECF19E47B830093AF83 /* NotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4DBECE19E47B830093AF83 /* NotesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		AB4DBEBE19E478540093AF83 /* MyNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4DBEC319E478540093AF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB4DBEC419E478540093AF83 /* MyNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesTests.swift; sourceTree = "<group>"; };
+		AB4DBECE19E47B830093AF83 /* NotesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				AB4DBEAC19E478530093AF83 /* AppDelegate.swift */,
 				AB4DBEAE19E478530093AF83 /* FirstViewController.swift */,
 				AB4DBEB019E478530093AF83 /* SecondViewController.swift */,
+				AB4DBECE19E47B830093AF83 /* NotesManager.swift */,
 				AB4DBEB219E478530093AF83 /* Main.storyboard */,
 				AB4DBEB519E478530093AF83 /* Images.xcassets */,
 				AB4DBEB719E478530093AF83 /* LaunchScreen.xib */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB4DBEB119E478530093AF83 /* SecondViewController.swift in Sources */,
+				AB4DBECF19E47B830093AF83 /* NotesManager.swift in Sources */,
 				AB4DBEAD19E478530093AF83 /* AppDelegate.swift in Sources */,
 				AB4DBEAF19E478530093AF83 /* FirstViewController.swift in Sources */,
 			);
